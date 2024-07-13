@@ -1,0 +1,18 @@
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center; /* Căn giữa các thẻ */
+  background-color: rgb(95, 98, 98);
+}
+
+.shop-card {
+  max-width: 345px;
+  flex: 0 1 30%; /* Chiều rộng thẻ, với khoảng cách giữa các thẻ */
+  margin: 8px; /* Khoảng cách giữa các thẻ */
+}
+
+.shop-card img {
+  object-fit: cover;
+}
